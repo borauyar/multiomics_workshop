@@ -1,3 +1,10 @@
+#if (!require("BiocManager", quietly = TRUE))
+  #install.packages("BiocManager")
+
+#BiocManager::install(c('cowplot', 'survminer', 'clValid', 'aricode', 'pbapply', 'ggpubr', 
+ #                      'omicade4', 'SNFtool', 'Rtsne', 'ggplot2', 'ranger', 'survival',
+  #                     'data.table', 'caret'))
+
 library(data.table)
 library(ggplot2)
 library(omicade4)
